@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://abir-ashab.github.io/al-folio/sitemap.xml
+Sitemap: https://abir-ashab.github.io/sitemap.xml
