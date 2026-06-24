@@ -1,14 +1,28 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Stack Overflow Microservices
+description: Distributed mini Stack Overflow using microservice architecture
+img: assets/img/4.jpg
+importance: 4
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
+## Distributed Mini Stack Overflow
+
+A distributed implementation of Stack Overflow using microservice architecture, demonstrating advanced system design patterns and containerization techniques.
+
+### 🎯 Project Overview
+
+Built to replicate core Stack Overflow functionalities with a microservices approach, this project showcases how to scale complex applications by decomposing them into independent, manageable services.
+
+### ✨ Key Features
+
+**Microservices Architecture:**
+- **User Service:** Authentication, profiles, reputation tracking
+- **Question Service:** Question CRUD operations
+- **Answer Service:** Answer management
+- **Search Service:** Distributed search and indexing
+- **Notification Service:** Real-time updates
 Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:

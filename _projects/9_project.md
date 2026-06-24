@@ -1,13 +1,19 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
-importance: 4
-category: fun
+title: Cefalo Recruitment Portal (ATS)
+description: Applicant Tracking System for managing recruitment workflow
+img: assets/img/9.jpg
+importance: 9
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
+## Cefalo Recruitment Portal (ATS)
+
+An enterprise-grade Applicant Tracking System (ATS) designed to streamline the recruitment process at Cefalo, from job posting through candidate selection and onboarding.
+
+### 🎯 Project Overview
+
+Built as a team project at Cefalo, this recruitment portal automates and optimizes the entire hiring workflow, improving efficiency and candidate experience while maintaining data security and compliance.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 

@@ -1,14 +1,19 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
-importance: 2
+title: Voyage
+description: Tour planning app with image search, weather updates, and AI content generation
+img: assets/img/8.jpg
+importance: 8
 category: work
-giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
+## Voyage - Tour Planning and Image Management
+
+A comprehensive travel planning platform offering intelligent image searching, automated weather integration, tour planning tools, and AI-driven content generation for unforgettable travel experiences.
+
+### 🎯 Project Overview
+
+Voyage combines travel planning with modern AI capabilities, allowing users to discover destinations through image search, plan routes with real-time weather, and generate engaging travel content automatically.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 

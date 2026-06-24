@@ -1,14 +1,27 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
+title: Sentiment Analysis & Multilingual Chatbot
+description: NLP-based sentiment analysis with multilingual chatbot system
+img: assets/img/6.jpg
+importance: 6
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
+## Sentiment Analysis and Multilingual Chatbot System
+
+A comprehensive NLP project that performs sentiment analysis on text data and provides intelligent multilingual chatbot responses using machine learning and deep learning techniques.
+
+### 🎯 Project Overview
+
+This project demonstrates practical applications of Natural Language Processing through sentiment classification and conversational AI, with support for multiple languages.
+
+### ✨ Key Features
+
+**Sentiment Analysis:**
+- Text classification into sentiment categories
+- Multilingual support (Bengali, English, Hindi)
+- Automatic language detection
+- Context-aware responses
 Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:

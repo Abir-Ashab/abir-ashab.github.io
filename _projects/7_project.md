@@ -1,14 +1,19 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
-category: work
-related_publications: true
+title: AI Mini Chess
+description: AI-powered minichess game using Minimax algorithm with alpha-beta pruning
+img: assets/img/7.jpg
+importance: 7
+category: fun
 ---
 
-Every project has a beautiful feature showcase page.
+## AI Mini Chess
+
+An intelligent minichess game featuring AI opponent powered by the Minimax algorithm with alpha-beta pruning, demonstrating game theory and artificial intelligence concepts.
+
+### 🎯 Project Overview
+
+Mini Chess is a simplified chess variant played on a smaller board, implemented with an unbeatable AI opponent. This project showcases algorithmic game theory and intelligent decision-making.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 

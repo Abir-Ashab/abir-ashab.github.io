@@ -1,37 +1,59 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Cefalo Travel Connect
+description: Comprehensive travel app for organizing group tours with role-based features
+img: assets/img/1.jpg
 importance: 1
 category: work
-related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Cefalo Travel Connect (Travel-Buddy)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+A comprehensive travel application designed for Cefalo engineers to plan, organize, and manage group tours seamlessly. The platform provides an integrated ecosystem for explorers, travelers, and administrators.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### 🎯 Project Overview
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+Developed as a training project at Cefalo to practice full-stack development with modern web technologies. The app handles all aspects of travel planning including route optimization, accommodation management, transport coordination, and real-time notifications.
+
+### ✨ Key Features
+
+**Role-Based Access:**
+- **Explorers:** Discover new destinations and create travel packages
+- **Travelers:** Browse available trips, join tours, and manage bookings
+- **Administrators:** Monitor all tours, manage resources, and oversee platform activities
+
+**Core Functionalities:**
+- 📍 **Proximity Alerts:** Real-time notifications for nearby locations and points of interest
+- 🎁 **Wishlist Management:** Save favorite destinations and accommodations for future trips
+- 🏨 **Accommodation Management:** Browse, compare, and book hotels and lodging options
+- 🚌 **Transport System:** Manage vehicles, booking, and route planning
+- 🔔 **Notification System:** Push notifications for bookings, changes, and location-based alerts
+- 🗺️ **PostGIS Integration:** Geospatial queries for location-based services
+
+### 🛠️ Tech Stack
+
+**Frontend:**
+- React with modern hooks and state management
+- Tailwind CSS for responsive UI design
+- Real-time map integration using PostGIS
+
+**Backend:**
+- Express.js for RESTful API
+- PostgreSQL with PostGIS extension for geographic data
+- Knex.js as query builder for complex database operations
+
+**Architecture:**
+- MVC pattern with proper separation of concerns
+- Middleware for authentication, validation, and error handling
+- Service layer for business logic
+
+### 💡 Learning Outcomes
+
+- Deep understanding of full-stack development workflow
+- Experience with geospatial data handling using PostGIS
+- Best practices in backend API design and database optimization
+- Implementation of real-time features with proximity-based alerts
+- GitHub workflow including branching, merging, and code review
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>

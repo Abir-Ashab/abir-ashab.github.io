@@ -1,37 +1,78 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://www.wikipedia.org/
+title: BanglaBridge
+description: Advanced Banglish to Bangla translation app with AI chatbot and language learning
+img: assets/img/3.jpg
 importance: 3
-category: work
+category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## BanglaBridge - Banglish to Bangla Conversion
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+An innovative language technology platform that bridges Banglish and Bangla, offering translation, AI chatbot interaction, content creation, and language learning features powered by advanced LLMs.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### 🎯 Project Overview
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+BanglaBridge addresses the unique challenge of translating Banglish (Bengali written in Latin script) to proper Bangla, leveraging modern AI to provide accurate, contextual translations and language assistance.
+
+### ✨ Key Features
+
+**Translation Services:**
+- Real-time Banglish to Bangla conversion
+- Context-aware translation preserving meaning
+- Support for colloquial and formal language
+
+**AI Chatbot:**
+- Conversational interface in both Banglish and Bangla
+- Multi-turn dialogue support
+- Context retention across conversations
+
+**Content Creation:**
+- AI-powered content generation
+- Writing assistance for creative content
+- Grammar and style suggestions
+
+**Language Learning:**
+- Interactive learning modules
+- Progressive difficulty levels
+- Cultural context and nuances
+- Practice exercises with instant feedback
+
+### 🛠️ Tech Stack
+
+**Frontend:**
+- React for responsive user interface
+- Real-time text input handling
+- Markdown rendering for content display
+
+**Backend:**
+- Node.js and Express.js for API services
+- MongoDB for storing user data and learning progress
+
+**AI/ML:**
+- Ollama for local LLM inference
+- Google Gemini API for advanced language understanding
+- Custom fine-tuned models for Banglish recognition
+- NLP preprocessing and tokenization
+
+**Architecture:**
+- Microservices approach for different features
+- Async processing for translation jobs
+- Caching for frequently translated phrases
+
+### 💡 Innovation Highlights
+
+- First platform to combine Banglish translation with LLM-based assistance
+- Supports Bangla cultural context in language learning
+- Local LLM option (Ollama) for privacy and offline capability
+- Hybrid approach using both local and cloud AI services
+
+### 🌟 Use Cases
+
+- Help Bengalis write in Bangla script
+- Language preservation and learning
+- Breaking language barriers in digital communication
+- Supporting Bengalis in diaspora
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>

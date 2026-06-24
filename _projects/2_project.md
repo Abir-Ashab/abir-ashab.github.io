@@ -1,37 +1,70 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Mediplus Medical Services
+description: Diagnostic center management system for streamlining healthcare operations
+img: assets/img/2.jpg
 importance: 2
 category: work
-giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Mediplus Medical Services
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+A comprehensive medical management system designed for diagnostic centers to streamline operations, manage patient records, and coordinate with healthcare providers efficiently.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### 🎯 Project Overview
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+Mediplus was my first client project, delivering a real-world solution for a diagnostic center. The system handles patient registration, test management, report generation, and provider coordination.
+
+### ✨ Key Features
+
+**Patient Management:**
+- Patient registration and profile management
+- Medical history tracking
+- Appointment scheduling
+- Test booking and tracking
+
+**Operations Management:**
+- Diagnostic test inventory management
+- Lab result processing workflow
+- Report generation and distribution
+- Provider and doctor management
+
+**Administrative Functions:**
+- Staff role management
+- Financial transactions and billing
+- Analytics and reporting dashboard
+- Data backup and security
+
+### 🛠️ Tech Stack
+
+**Frontend:**
+- React for dynamic UI components
+- Tailwind CSS for modern, responsive design
+- Form management for complex medical data
+
+**Backend:**
+- Express.js for robust API endpoints
+- MongoDB for flexible document storage
+- CRUD operations optimized for healthcare data
+
+**Features:**
+- RESTful API architecture
+- Secure data handling
+- Real-time updates
+
+### 💼 Client Deliverables
+
+- Full functional web application deployed to production
+- Comprehensive documentation for end-users
+- Training materials for diagnostic center staff
+- Ongoing support and maintenance protocols
+
+### 📊 Impact
+
+- Reduced administrative overhead by automating test management
+- Improved patient experience with online booking system
+- Streamlined report delivery process
+- Enhanced data organization and accessibility
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
