@@ -5,7 +5,7 @@ cv:
   phone: +8801794406966
   location: University of South Florida, Tampa, Florida
   image: ""
-  # summary: PhD student in Computer Science and Engineering at University of South Florida, focusing on security research and AI-driven threat detection. Combine software engineering expertise with cybersecurity research to develop innovative log-based attack detection solutions. Experienced in MITRE ATT&CK framework, ELK Stack, and threat modeling. Strong background in full-stack development with microservice architectures and fine-tuning AI models for security applications.
+  # summary: PhD student in Computer Science and Engineering at University of South Florida, focusing on cybersecurity research. Combine software engineering expertise with cybersecurity research to develop innovative log-based attack detection solutions. Experienced in MITRE ATT&CK framework, ELK Stack, and threat modeling. Strong background in full-stack development with microservice architectures and fine-tuning AI models for security applications.
 
   social_networks:
     - network: GitHub
@@ -31,13 +31,12 @@ cv:
         start_date: Aug 2026
         end_date: current
         highlights:
-          - "Focus on security research and AI-driven threat detection"
-          - "Research: MITRE ATT&CK-based threat modeling and log-based attack technique classification"
+          - "Research on Static Application Security Testing (SAST) tools for enterprise software and security challenges in Blockchain Technology and AI Agents"
 
       - institution: Institute of Information Technology (IIT), University of Dhaka
         location: Dhaka, Bangladesh
         url: https://iit.du.ac.bd/
-        area: Software Engineering
+        area: Software Engineering (GPA - 3.70/4.0)
         studyType: Bachelor of Science
         start_date: Jan 2022
         end_date: Feb 2026
@@ -48,14 +47,14 @@ cv:
 
       - institution: Birshreshtha Noor Mohammad Public College
         location: Pilkhana, Dhaka
-        area: Science
+        area: Science (5.0/5.0)
         studyType: Higher Secondary School Certificate (HSC)
         url: https://www.noormohammadcollege.ac.bd/
         start_date: Aug 2018
         end_date: Feb 2020
         score: "5.0/5.0"
         highlights:
-          - "Perfect GPA with focus on Mathematics and Physics"
+          - "Focus on Mathematics, Chemistry, and Physics"
 
     Experience:
       - company: Cefalo
