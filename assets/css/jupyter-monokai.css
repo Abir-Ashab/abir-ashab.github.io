@@ -431,6 +431,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 h6,
 pre,
 code,
@@ -580,8 +581,7 @@ input.raw_input {
   box-shadow: none;
 }
 
-audio,
-video {
+audio {
   display: inline;
   vertical-align: middle;
   align-content: center;
