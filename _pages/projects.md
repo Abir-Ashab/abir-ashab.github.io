@@ -2,7 +2,6 @@
 layout: page
 title: Projects
 permalink: /projects/
-# description: Here is the growing collection of my cool projects.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
@@ -12,6 +11,49 @@ horizontal: false
 <style>
   .project-card { pointer-events: none; cursor: default !important; }
   .project-card a.gh-link { pointer-events: all !important; cursor: pointer !important; }
+
+  .proj-category {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 4px;
+    color: var(--global-text-color-light);
+  }
+
+  .proj-title {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: var(--global-text-color);
+  }
+
+  .proj-desc {
+    font-size: 13px;
+    line-height: 1.65;
+    margin-bottom: 16px;
+    color: var(--global-text-color-light);
+  }
+
+  .proj-link {
+    font-size: 11px;
+    font-family: monospace;
+    text-decoration: none;
+    color: var(--global-text-color-light);
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .proj-link:hover {
+    color: var(--global-text-color);
+    border-bottom-color: var(--global-text-color);
+  }
+
+  .project-card.card {
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color) !important;
+    box-shadow: none !important;
+    cursor: default;
+  }
 </style>
 
 <div class="projects">
@@ -28,28 +70,16 @@ horizontal: false
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
     <div class="col mb-4">
-      <div class="project-card card h-100" style="cursor:default; box-shadow:none;">
+      <div class="project-card card h-100">
         <div class="card-body p-4">
-
-          <p style="font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:#aaa; font-family:monospace; margin-bottom:4px;">
-            {{ project.category }}
-          </p>
-
-          <h5 class="card-title" style="font-size:15px; font-weight:500; margin-bottom:6px;">
-            {{ project.title }}
-          </h5>
-
-          <p style="font-size:13px; color:#888; line-height:1.65; margin-bottom:16px;">
-            {{ project.description }}
-          </p>
-
+          <p class="proj-category">{{ project.category }}</p>
+          <h5 class="proj-title">{{ project.title }}</h5>
+          <p class="proj-desc">{{ project.description }}</p>
           {% if project.github %}
-          <a class="gh-link" href="{{ project.github }}" target="_blank" rel="noopener"
-             style="font-size:11px; font-family:monospace; color:#aaa; border-bottom:1px solid #555; text-decoration:none;">
+          <a class="gh-link proj-link" href="{{ project.github }}" target="_blank" rel="noopener">
             github ↗
           </a>
           {% endif %}
-
         </div>
       </div>
     </div>
@@ -64,28 +94,16 @@ horizontal: false
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
     <div class="col mb-4">
-      <div class="project-card card h-100" style="cursor:default; box-shadow:none;">
+      <div class="project-card card h-100">
         <div class="card-body p-4">
-
-          <p style="font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:#aaa; font-family:monospace; margin-bottom:4px;">
-            {{ project.category }}
-          </p>
-
-          <h5 class="card-title" style="font-size:15px; font-weight:500; margin-bottom:6px;">
-            {{ project.title }}
-          </h5>
-
-          <p style="font-size:13px; color:#888; line-height:1.65; margin-bottom:16px;">
-            {{ project.description }}
-          </p>
-
+          <p class="proj-category">{{ project.category }}</p>
+          <h5 class="proj-title">{{ project.title }}</h5>
+          <p class="proj-desc">{{ project.description }}</p>
           {% if project.github %}
-          <a class="gh-link" href="{{ project.github }}" target="_blank" rel="noopener"
-             style="font-size:11px; font-family:monospace; color:#aaa; border-bottom:1px solid #555; text-decoration:none;">
+          <a class="gh-link proj-link" href="{{ project.github }}" target="_blank" rel="noopener">
             github ↗
           </a>
           {% endif %}
-
         </div>
       </div>
     </div>
