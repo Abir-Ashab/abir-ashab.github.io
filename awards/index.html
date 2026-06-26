@@ -1,0 +1,379 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Awards | Abir Ashab Niloy </title> <meta name="author" content="Abir Ashab Niloy"> <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. "> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://abir-ashab.github.io/awards/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Abir</span> Ashab Niloy </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">Projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/experience/">Experience </a> </li> <li class="nav-item "> <a class="nav-link" href="/education/">Education </a> </li> <li class="nav-item active"> <a class="nav-link" href="/awards/">Awards <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Awards</h1> <p class="post-description"></p> </header> <article> <style>
+.section-label {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-text-color);
+  opacity: 0.5;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+/* ── Award cards ── */
+.award-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  margin-bottom: 2.5rem;
+}
+.award-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  background: var(--global-card-bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.award-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+.award-rank {
+  font-size: 10px;
+  font-family: monospace;
+  padding: 2px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--global-theme-color);
+  color: var(--global-theme-color) !important;
+  opacity: 0.85;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.award-year {
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--global-text-color) !important;
+  opacity: 0.4;
+}
+.award-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--global-text-color) !important;
+  margin: 0;
+  line-height: 1.4;
+}
+.award-org {
+  font-size: 12px;
+  color: var(--global-text-color) !important;
+  opacity: 0.5;
+  margin: 0;
+}
+.award-team {
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--global-text-color) !important;
+  opacity: 0.4;
+  margin: 0;
+}
+.award-desc {
+  font-size: 12.5px;
+  color: var(--global-text-color) !important;
+  opacity: 0.6;
+  line-height: 1.6;
+  margin: 4px 0 0;
+}
+
+/* Photo strip — only shown when photos exist */
+.photo-strip {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.photo-thumb {
+  width: 72px;
+  height: 54px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 1px solid var(--global-divider-color);
+  display: block;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+.photo-thumb:hover { opacity: 1; }
+
+/* ── CP cards ── */
+.cp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 12px;
+  margin-bottom: 2.5rem;
+}
+.cp-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  background: var(--global-card-bg-color);
+}
+.cp-platform {
+  font-size: 10px;
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--global-text-color) !important;
+  opacity: 0.4;
+  margin-bottom: 10px;
+}
+.cp-rating {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: monospace;
+  color: var(--global-theme-color) !important;
+  line-height: 1;
+  margin-bottom: 2px;
+}
+.cp-tier {
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--global-text-color) !important;
+  opacity: 0.45;
+  margin-bottom: 12px;
+}
+.cp-handle a {
+  font-size: 12px;
+  font-family: monospace;
+  color: var(--global-theme-color) !important;
+  text-decoration: none !important;
+  opacity: 0.8;
+}
+.cp-handle a:hover { opacity: 1; }
+.cp-solved {
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--global-text-color) !important;
+  opacity: 0.4;
+  margin-top: 4px;
+}
+
+/* ── Certificate grid ── */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 2.5rem;
+}
+.cert-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+  text-decoration: none !important;
+  display: block;
+}
+.cert-card:hover { border-color: var(--global-theme-color); }
+.cert-preview {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+.cert-preview-pdf {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--global-code-bg-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 28px;
+  opacity: 0.3;
+}
+.cert-body { padding: 10px 12px; }
+.cert-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--global-text-color) !important;
+  margin: 0 0 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cert-issuer {
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--global-text-color) !important;
+  opacity: 0.4;
+  margin: 0;
+}
+</style> <div style="padding: 0.5rem 0 2rem;"> <p class="section-label">Hackathon Awards</p> <div class="award-grid"> <div class="award-card"> <div class="award-card-top"> <div> <p class="award-year">2025</p> <p class="award-title">AI Hackathon — Creative IT at The Daily Star</p> </div> <span class="award-rank">2nd</span> </div> <p class="award-org">Creative IT · The Daily Star</p> <p class="award-team">Team: DU Sceptic</p> <p class="award-desc">Advanced AI solution recognised for innovation and implementation quality among top projects in Bangladesh.</p> <div class="photo-strip"> <a href="/assets/img/awards/creative-it.png" target="_blank"> <img class="photo-thumb" src="/assets/img/awards/creative-it.png" alt=""> </a> <a href="/assets/img/awards/creative-it2.png" target="_blank"> <img class="photo-thumb" src="/assets/img/awards/creative-it2.png" alt=""> </a> </div> </div> <div class="award-card"> <div class="award-card-top"> <div> <p class="award-year">2025</p> <p class="award-title">KUET Bitfest — Hackathon</p> </div> <span class="award-rank">3rd + Best UI</span> </div> <p class="award-org">Khulna University of Engineering &amp; Technology</p> <p class="award-team">Team: 404 Brain Not Found</p> <p class="award-desc">Dual recognition for technical excellence and exceptional interface design.</p> <div class="photo-strip"> <a href="/assets/img/awards/kuet1.png" target="_blank"> <img class="photo-thumb" src="/assets/img/awards/kuet1.png" alt=""> </a> <a href="/assets/img/awards/kuet2.png" target="_blank"> <img class="photo-thumb" src="/assets/img/awards/kuet2.png" alt=""> </a> </div> </div> <div class="award-card"> <div class="award-card-top"> <div> <p class="award-year">2025</p> <p class="award-title">Cefalo AI Hackathon</p> </div> <span class="award-rank">Special Mention</span> </div> <p class="award-org">Cefalo</p> <p class="award-team">Team: Nous Dynamos</p> <p class="award-desc">Recognised for innovative AI solution and technical implementation quality.</p> <div class="photo-strip"> <a href="/assets/img/awards/cefalo.png" target="_blank"> <img class="photo-thumb" src="/assets/img/awards/cefalo.png" alt=""> </a> </div> </div> <div class="award-card"> <div class="award-card-top"> <div> <p class="award-year">2024</p> <p class="award-title">BUET Hackathon</p> </div> <span class="award-rank">Top 20 / 200+</span> </div> <p class="award-org">Bangladesh University of Engineering &amp; Technology</p> <p class="award-team">Team: Allahr Naame Cholilam</p> <p class="award-desc">Selected among 200+ competing teams.</p> <div class="photo-strip"> <a href="/assets/img/awards/buet1.png" target="_blank"> <img class="photo-thumb" src="/assets/img/awards/buet1.png" alt=""> </a> </div> </div> <div class="award-card"> <div class="award-card-top"> <div> <p class="award-year">2023</p> <p class="award-title">DU ITVerse</p> </div> <span class="award-rank">Top 10 / 150+</span> </div> <p class="award-org">University of Dhaka</p> <p class="award-team">Team: IIT codeGurus</p> <p class="award-desc">Solid problem-solving and project delivery among 150+ competing teams.</p> <div class="photo-strip"> <a href="/assets/img/awards/itverse.png" target="_blank"> <img class="photo-thumb" src="/assets/img/awards/itverse.png" alt=""> </a> </div> </div> </div> <p class="section-label">Competitive Programming</p> <div class="cp-grid"> <div class="cp-card"> <p class="cp-platform">Codeforces</p> <p class="cp-rating">1441</p> <p class="cp-tier">Specialist · CYAN</p> <div class="cp-handle"> <a href="https://codeforces.com/profile/abir%20ashhab" target="_blank" rel="external nofollow noopener">abir ashhab ↗</a> </div> <p class="cp-solved">400+ problems solved</p> </div> <div class="cp-card"> <p class="cp-platform">CodeChef</p> <p class="cp-rating">1707</p> <p class="cp-tier">3-Star · BLUE</p> <div class="cp-handle"> <a href="https://www.codechef.com/users/abir%20ashab" target="_blank" rel="external nofollow noopener">abir ashab ↗</a> </div> <p class="cp-solved">50+ problems solved</p> </div> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Abir Ashab Niloy. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "About",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "Publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-experience",
+          title: "Experience",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/experience/";
+          },
+        },{id: "nav-education",
+          title: "Education",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/education/";
+          },
+        },{id: "nav-awards",
+          title: "Awards",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/awards/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "projects-cefalo-travel-connect",
+          title: 'Cefalo Travel Connect',
+          description: "A comprehensive travel application designed for Cefalo engineers to plan, organize, and manage group tours seamlessly. The platform provides an integrated ecosystem for explorers, travelers, and administrators.I developed as a training project at Cefalo to practice full-stack development with modern web technologies. The app handles all aspects of travel planning including route optimization, accommodation management, transport coordination, and real-time notifications.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-mediplus-medical-services",
+          title: 'Mediplus Medical Services',
+          description: "A comprehensive medical management system designed for diagnostic centers to streamline operations, manage patient records, and coordinate with healthcare providers efficiently. It was my first client project, delivering a real-world solution for a diagnostic center. The system handles patient registration, test management, report generation, and provider coordination.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-banglabridge",
+          title: 'BanglaBridge',
+          description: "An innovative language technology platform that bridges Banglish and Bangla, offering translation, AI chatbot interaction, content creation, and language learning features powered by advanced LLMs. BanglaBridge addresses the unique challenge of translating Banglish (Bengali written in Latin script) to proper Bangla, leveraging modern AI to provide accurate, contextual translations and language assistance.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-stack-overflow-microservices",
+          title: 'Stack Overflow Microservices',
+          description: "A distributed implementation of Stack Overflow using microservice architecture, demonstrating advanced system design patterns and containerization techniques. Built to replicate core Stack Overflow functionalities with a microservices approach, this project showcases how to scale complex applications by decomposing them into independent, manageable services.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-medilens",
+          title: 'MediLens',
+          description: "An intelligent platform for analyzing Bangla medical prescriptions using OCR, chatbot assistance, and fine-tuned Gemini AI models to extract insights from medical documents. MediLens tackles the challenge of understanding medical prescriptions written in Bangla, using cutting-edge AI to extract medication information, dosages, and provide patient-friendly explanations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-sentiment-analysis-amp-multilingual-chatbot",
+          title: 'Sentiment Analysis &amp;amp; Multilingual Chatbot',
+          description: "A comprehensive NLP project that performs sentiment analysis on text data and provides intelligent multilingual chatbot responses using machine learning and deep learning techniques. This project demonstrates practical applications of Natural Language Processing through sentiment classification and conversational AI, with support for multiple languages.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-ai-mini-chess",
+          title: 'AI Mini Chess',
+          description: "An intelligent minichess game featuring AI opponent powered by the Minimax algorithm with alpha-beta pruning, demonstrating game theory and artificial intelligence concepts. Mini Chess is a simplified chess variant played on a smaller board, implemented with an unbeatable AI opponent. This project showcases algorithmic game theory and intelligent decision-making.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-voyage",
+          title: 'Voyage',
+          description: "A comprehensive travel planning platform offering intelligent image searching, automated weather integration, tour planning tools, and AI-driven content generation for unforgettable travel experiences. Voyage combines travel planning with modern AI capabilities, allowing users to discover destinations through image search, plan routes with real-time weather, and generate engaging travel content automatically.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
+            },},{id: "projects-cefalo-recruitment-portal-ats",
+          title: 'Cefalo Recruitment Portal (ATS)',
+          description: "An enterprise-grade Applicant Tracking System (ATS) designed to streamline the recruitment process at Cefalo, from job posting through candidate selection and onboarding.Built as a team project at Cefalo, this recruitment portal automates and optimizes the entire hiring workflow, improving efficiency and candidate experience while maintaining data security and compliance.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%62%73%73%65%31%33%31%35@%69%69%74.%64%75.%61%63.%62%64", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=bjsHCaAAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-whatsapp',
+        title: 'whatsapp',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://wa.me/8801794406966", "_blank");
+        },
+      },{
+        id: 'social-facebook',
+        title: 'Facebook',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://facebook.com/abiir.ashhab", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/abir-ashab-niloy", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
