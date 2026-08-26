@@ -36,11 +36,11 @@ cv:
       - institution: Institute of Information Technology (IIT), University of Dhaka
         location: Dhaka, Bangladesh
         url: https://iit.du.ac.bd/
-        area: Software Engineering (GPA - 3.70/4.0)
+        area: Software Engineering 
         studyType: Bachelor of Science
         start_date: Jan 2022
         end_date: Feb 2026
-        score: "3.70/4.0"
+        # score: "3.70/4.0"
         highlights:
           - "Specialized in software engineering principles and full-stack development"
           - "Strong academic performance with focus on competitive programming and security"

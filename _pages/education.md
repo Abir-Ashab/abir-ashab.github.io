@@ -69,7 +69,7 @@ nav_order: 5
         </p>
         <p class="duration">Jan 2022 – Feb 2026</p>
       </div>
-      <span class="gpa-badge">GPA 3.70 / 4.00</span>
+      <!-- <span class="gpa-badge">GPA 3.70 / 4.00</span> -->
     </div>
     <p class="role-desc">Specialised in software engineering principles and full-stack development. Strong academic performance with focus on competitive programming and security.</p>
     <div class="tag-row">
