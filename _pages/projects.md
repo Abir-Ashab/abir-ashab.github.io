@@ -10,7 +10,7 @@ horizontal: false
 
 <style>
   .project-card { pointer-events: none; cursor: default !important; }
-  .project-card a.gh-link { pointer-events: all !important; cursor: pointer !important; }
+  .project-card a.gh-link, .project-card a.site-link { pointer-events: all !important; cursor: pointer !important; }
 
   .proj-category {
     font-size: 10px;
@@ -80,6 +80,11 @@ horizontal: false
             github ↗
           </a>
           {% endif %}
+          {% if project.redirect %}
+          <a class="site-link proj-link" href="{{ project.redirect }}" target="_blank" rel="noopener">
+            visit site ↗
+          </a>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -102,6 +107,11 @@ horizontal: false
           {% if project.github %}
           <a class="gh-link proj-link" href="{{ project.github }}" target="_blank" rel="noopener">
             github ↗
+          </a>
+          {% endif %}
+          {% if project.redirect %}
+          <a class="site-link proj-link" href="{{ project.redirect }}" target="_blank" rel="noopener">
+            visit site ↗
           </a>
           {% endif %}
         </div>
