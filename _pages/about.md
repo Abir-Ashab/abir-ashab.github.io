@@ -6,7 +6,7 @@ subtitle: CyberSecurity Researcher | PhD Student in Computer Science | Software 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>PhD Student at USF</p>
