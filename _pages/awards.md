@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /awards/
-title: Awards
+title: Recognitions
 nav: true
 nav_order: 6
 ---
@@ -215,7 +215,7 @@ nav_order: 6
 <div style="padding: 0.5rem 0 2rem;">
 
 <!-- ── HACKATHON AWARDS ─────────────────────────────── -->
-<p class="section-label">Hackathon Awards</p>
+<p class="section-label">Hackathons</p>
 <div class="award-grid">
 
   <div class="award-card">
@@ -224,11 +224,10 @@ nav_order: 6
         <p class="award-year">2025</p>
         <p class="award-title">AI Hackathon — Creative IT at The Daily Star</p>
       </div>
-      <span class="award-rank">2nd</span>
+      <span class="award-rank">Second Runner-Up</span>
     </div>
     <p class="award-org">Creative IT · The Daily Star</p>
     <p class="award-team">Team: DU Sceptic</p>
-    <p class="award-desc">Advanced AI solution recognised for innovation and implementation quality among top projects in Bangladesh.</p>
     <!-- Add photos if you have them, otherwise delete this block -->
     <div class="photo-strip">
       <a href="/assets/img/awards/creative-it.png" target="_blank">
@@ -246,11 +245,10 @@ nav_order: 6
         <p class="award-year">2025</p>
         <p class="award-title">KUET Bitfest — Hackathon</p>
       </div>
-      <span class="award-rank">3rd + Best UI</span>
+      <span class="award-rank">Third Runner-Up · Best UI</span>
     </div>
     <p class="award-org">Khulna University of Engineering & Technology</p>
     <p class="award-team">Team: 404 Brain Not Found</p>
-    <p class="award-desc">Dual recognition for technical excellence and exceptional interface design.</p>
     <div class="photo-strip">
       <a href="/assets/img/awards/kuet1.png" target="_blank">
         <img class="photo-thumb" src="/assets/img/awards/kuet1.png" alt="">
@@ -271,7 +269,6 @@ nav_order: 6
     </div>
     <p class="award-org">Cefalo</p>
     <p class="award-team">Team: Nous Dynamos</p>
-    <p class="award-desc">Recognised for innovative AI solution and technical implementation quality.</p>
         <div class="photo-strip">
       <a href="/assets/img/awards/cefalo.png" target="_blank">
         <img class="photo-thumb" src="/assets/img/awards/cefalo.png" alt="">
@@ -289,7 +286,6 @@ nav_order: 6
     </div>
     <p class="award-org">Bangladesh University of Engineering & Technology</p>
     <p class="award-team">Team: Allahr Naame Cholilam</p>
-    <p class="award-desc">Selected among 200+ competing teams.</p>
         <div class="photo-strip">
       <a href="/assets/img/awards/buet1.png" target="_blank">
         <img class="photo-thumb" src="/assets/img/awards/buet1.png" alt="">
@@ -307,7 +303,6 @@ nav_order: 6
     </div>
     <p class="award-org">University of Dhaka</p>
     <p class="award-team">Team: IIT codeGurus</p>
-    <p class="award-desc">Solid problem-solving and project delivery among 150+ competing teams.</p>
         <div class="photo-strip">
       <a href="/assets/img/awards/itverse.png" target="_blank">
         <img class="photo-thumb" src="/assets/img/awards/itverse.png" alt="">
@@ -324,9 +319,9 @@ nav_order: 6
   <div class="cp-card">
     <p class="cp-platform">Codeforces</p>
     <p class="cp-rating">1441</p>
-    <p class="cp-tier">Specialist · CYAN</p>
+    <p class="cp-tier">Specialist</p>
     <div class="cp-handle">
-      <a href="https://codeforces.com/profile/abir%20ashhab" target="_blank">abir ashhab ↗</a>
+      <a href="https://codeforces.com/profile/abir_ashhab" target="_blank">abir_ashhab ↗</a>
     </div>
     <p class="cp-solved">400+ problems solved</p>
   </div>
@@ -334,9 +329,9 @@ nav_order: 6
   <div class="cp-card">
     <p class="cp-platform">CodeChef</p>
     <p class="cp-rating">1707</p>
-    <p class="cp-tier">3-Star · BLUE</p>
+    <p class="cp-tier">3-Star</p>
     <div class="cp-handle">
-      <a href="https://www.codechef.com/users/abir%20ashab" target="_blank">abir ashab ↗</a>
+      <a href="https://www.codechef.com/users/abir_ashab" target="_blank">abir_ashab ↗</a>
     </div>
     <p class="cp-solved">50+ problems solved</p>
   </div>

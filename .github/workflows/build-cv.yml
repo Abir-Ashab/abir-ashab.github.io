@@ -1,0 +1,61 @@
+name: Build CV PDF
+
+# Recompiles resume/cv.tex into assets/pdf/cv.pdf whenever the LaTeX source changes,
+# commits the PDF, then triggers the site deploy so the new PDF goes live.
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - "resume/**"
+      - ".github/workflows/build-cv.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: build-cv
+  cancel-in-progress: true
+
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX 📄
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv.tex
+          working_directory: resume
+          latexmk_use_lualatex: false
+
+      - name: Publish PDF to assets 📦
+        run: cp resume/cv.pdf assets/pdf/cv.pdf
+
+      - name: Commit PDF 💾
+        id: commit
+        run: |
+          if git diff --quiet -- assets/pdf/cv.pdf; then
+            echo "CV PDF unchanged."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/pdf/cv.pdf
+            git commit -m "chore: rebuild CV PDF from resume/cv.tex"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Pushes made with GITHUB_TOKEN don't trigger other workflows, so start the deploy explicitly.
+      - name: Trigger site deploy 🚀
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref "${{ github.ref_name }}"

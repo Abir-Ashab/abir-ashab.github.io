@@ -67,11 +67,11 @@ nav_order: 5
           <a href="https://iit.du.ac.bd/" target="_blank">Institute of Information Technology (IIT), University of Dhaka</a>
           <span> · Dhaka, Bangladesh</span>
         </p>
-        <p class="duration">Jan 2022 – Feb 2026</p>
+        <p class="duration">Jan 2022 – May 2026</p>
       </div>
       <!-- <span class="gpa-badge">GPA 3.70 / 4.00</span> -->
     </div>
-    <p class="role-desc">Specialised in software engineering principles and full-stack development. Strong academic performance with focus on competitive programming and security.</p>
+    <p class="role-desc">Coursework and projects in software engineering, full-stack development, and security.</p>
     <div class="tag-row">
       <span class="tag">Software Engineering</span>
       <span class="tag">Full-Stack Development</span>
@@ -93,7 +93,7 @@ nav_order: 5
       </div>
       <span class="gpa-badge">GPA 5.0 / 5.0</span>
     </div>
-    <p class="role-desc">Perfect GPA with focus on Mathematics and Physics.</p>
+    <p class="role-desc">Science group, with a focus on Mathematics and Physics.</p>
     <div class="tag-row">
       <span class="tag">Mathematics</span>
       <span class="tag">Physics</span>

@@ -10,14 +10,14 @@ profile:
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>PhD Student at USF</p>
-  #   <p>+880 1794 406 966</p>
+  #   <p>+1 (813) 270-9264</p>
   #   <p>bsse1315@iit.du.ac.bd</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -30,7 +30,7 @@ I am a passionate cybersecurity researcher and PhD student at [University of Sou
 
 In addition, I have applied practical solutions to cybersecurity challenges. My previous work includes an [AI-powered security tool](https://github.com/Abir-Ashab/Mitre-Dataset) built around the [MITRE ATT&CK framework](https://attack.mitre.org/) to support threat analysis and security decision-making.
 
-My current research focuses on [Static Application Security Testing (SAST)](https://en.wikipedia.org/wiki/Static_application_security_testing) tools to improve security in enterprise software. In addition, I will be working on security challenges in [Blockchain Technology](https://www.blockchain.com/) and [AI Agents](https://www.ibm.com/topics/ai-agents). I am dedicated to advancing the field of cybersecurity through quality research and practical applications.
+My current research focuses on [Static Application Security Testing (SAST)](https://en.wikipedia.org/wiki/Static_application_security_testing) tools to improve security challenges in [Blockchain Technology](https://www.blockchain.com/). I am dedicated to advancing the field of cybersecurity through quality research and practical applications.
 
 I am open to collaborations and discussions on cybersecurity, AI applications in cybersecurity, and innovative software engineering research. Feel free to reach out to me!
 

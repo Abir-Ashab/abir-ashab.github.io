@@ -33,6 +33,26 @@ nav_order: 4
 
 <div class="exp-section">
   <p class="section-label">Experience</p>
+  <div class="role-card current">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+      <div>
+        <p class="role-title">Graduate Teaching Assistant — Analysis of Algorithms (COT 4400)</p>
+        <p class="role-org">
+          <a href="https://www.usf.edu/" target="_blank">University of South Florida</a>
+          <span> · Tampa, Florida, USA</span>
+        </p>
+        <p class="duration">Aug 2026 – present</p>
+      </div>
+      <span class="role-badge badge-current">Current</span>
+    </div>
+    <p class="role-desc">Supporting the undergraduate Analysis of Algorithms course: conducting office hours, assisting students with algorithm design and complexity analysis, and grading assignments and exams.</p>
+    <div class="tag-row">
+      <span class="tag">Teaching</span>
+      <span class="tag">Algorithm Design</span>
+      <span class="tag">Complexity Analysis</span>
+    </div>
+  </div>
+
   <div class="role-card">
     <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
       <div>
@@ -41,7 +61,7 @@ nav_order: 4
           <a href="https://www.cefalo.com/" target="_blank">Cefalo</a>
           <span> · Dhaka, Bangladesh</span>
         </p>
-        <p class="duration">Mar 2025 – Jul 2026 · 16 months</p>
+        <p class="duration">Mar 2025 – Jun 2026 · 16 months</p>
       </div>
       <span class="role-badge badge-past">Past</span>
     </div>
