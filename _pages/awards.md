@@ -342,7 +342,7 @@ nav_order: 6
 <!-- <p class="section-label">Certificates</p>
 <div class="cert-grid">
 
-  
+
     For an image certificate:
     <a class="cert-card" href="/assets/img/certificates/your-cert.jpg" target="_blank">
       <img class="cert-preview" src="/assets/img/certificates/your-cert.jpg" alt="">

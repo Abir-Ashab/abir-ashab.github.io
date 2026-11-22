@@ -26,6 +26,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 I am a cybersecurity researcher and PhD student at [University of South Florida](https://www.usf.edu/) experienced in both breaking and building secure systems. With around 1.5 years of software engineering experience at [Cefalo](https://www.cefalo.com/en/), one of Bangladesh’s leading software companies, I have built a strong foundation in software development domain.
 
 In addition, I have applied practical solutions to cybersecurity challenges. My previous work includes an [AI-powered security tool](https://github.com/Abir-Ashab/Mitre-Dataset) built around the [MITRE ATT&CK framework](https://attack.mitre.org/) to support threat analysis and security decision-making.
@@ -33,8 +34,3 @@ In addition, I have applied practical solutions to cybersecurity challenges. My 
 My current research focuses on the soundiness of [Static Application Security Testing (SAST)](https://en.wikipedia.org/wiki/Static_application_security_testing) tools in [Blockchain Technology](https://www.blockchain.com/).
 
 I am open to collaborations and discussions on cybersecurity, AI applications in cybersecurity, and innovative software engineering research. Feel free to reach out to me!
-
-
-
-
-
