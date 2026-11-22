@@ -11,7 +11,7 @@ profile:
   # more_info: >
   #   <p>PhD Student at USF</p>
   #   <p>+1 (813) 270-9264</p>
-  #   <p>bsse1315@iit.du.ac.bd</p>
+  #   <p>abirashabniloy@usf.edu</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,11 +26,11 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a passionate cybersecurity researcher and PhD student at [University of South Florida](https://www.usf.edu/) experienced in both breaking and building secure systems. With around 1.5 years of software engineering experience at [Cefalo](https://www.cefalo.com/en/), one of Bangladesh’s leading software companies, I have built a strong foundation in software development.
+I am a cybersecurity researcher and PhD student at [University of South Florida](https://www.usf.edu/) experienced in both breaking and building secure systems. With around 1.5 years of software engineering experience at [Cefalo](https://www.cefalo.com/en/), one of Bangladesh’s leading software companies, I have built a strong foundation in software development domain.
 
 In addition, I have applied practical solutions to cybersecurity challenges. My previous work includes an [AI-powered security tool](https://github.com/Abir-Ashab/Mitre-Dataset) built around the [MITRE ATT&CK framework](https://attack.mitre.org/) to support threat analysis and security decision-making.
 
-My current research focuses on [Static Application Security Testing (SAST)](https://en.wikipedia.org/wiki/Static_application_security_testing) tools to improve security challenges in [Blockchain Technology](https://www.blockchain.com/). I am dedicated to advancing the field of cybersecurity through quality research and practical applications.
+My current research focuses on [Static Application Security Testing (SAST)](https://en.wikipedia.org/wiki/Static_application_security_testing) tools to improve their soundiness while flagging vulnerable code in [Blockchain Technology](https://www.blockchain.com/). 
 
 I am open to collaborations and discussions on cybersecurity, AI applications in cybersecurity, and innovative software engineering research. Feel free to reach out to me!
 
