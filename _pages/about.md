@@ -30,7 +30,7 @@ I am a cybersecurity researcher and PhD student at [University of South Florida]
 
 In addition, I have applied practical solutions to cybersecurity challenges. My previous work includes an [AI-powered security tool](https://github.com/Abir-Ashab/Mitre-Dataset) built around the [MITRE ATT&CK framework](https://attack.mitre.org/) to support threat analysis and security decision-making.
 
-My current research focuses on [Static Application Security Testing (SAST)](https://en.wikipedia.org/wiki/Static_application_security_testing) tools to improve their soundiness while flagging vulnerable code in [Blockchain Technology](https://www.blockchain.com/). 
+My current research focuses on the soundiness of [Static Application Security Testing (SAST)](https://en.wikipedia.org/wiki/Static_application_security_testing) tools in [Blockchain Technology](https://www.blockchain.com/).
 
 I am open to collaborations and discussions on cybersecurity, AI applications in cybersecurity, and innovative software engineering research. Feel free to reach out to me!
 
