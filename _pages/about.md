@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: CyberSecurity Researcher | PhD Student in Computer Science | Software Engineer
+subtitle: Cybersecurity Researcher | PhD Student in Computer Science | Software Engineer
 
 profile:
   align: right
@@ -27,10 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a cybersecurity researcher and PhD student at [University of South Florida](https://www.usf.edu/) experienced in both breaking and building secure systems. With around 1.5 years of software engineering experience at [Cefalo](https://www.cefalo.com/en/), one of Bangladesh’s leading software companies, I have built a strong foundation in software development domain.
+I am a cybersecurity researcher and PhD student at the [University of South Florida](https://www.usf.edu/), experienced in both breaking and building secure software applications. With around one and a half years of experience in full-stack software development at [Cefalo](https://www.cefalo.com/en/) and a Bachelor's degree in Software Engineering, I have built a strong foundation in this field.
 
-In addition, I have applied practical solutions to cybersecurity challenges. My previous work includes an [AI-powered security tool](https://github.com/Abir-Ashab/Mitre-Dataset) built around the [MITRE ATT&CK framework](https://attack.mitre.org/) to support threat analysis and security decision-making.
+In my previous work, I built an [AI-powered security tool](https://github.com/Abir-Ashab/Mitre-Dataset) around the [MITRE ATT&CK framework](https://attack.mitre.org/) to support threat analysis and security decision-making. Through this work, I gained hands-on knowledge of how real-world attacks are performed with modern exploitation tools.
 
-My current research focuses on the soundiness of [Static Application Security Testing (SAST)](https://en.wikipedia.org/wiki/Static_application_security_testing) tools in [Blockchain Technology](https://www.blockchain.com/).
+My current research focuses on the [Soundiness](http://soundiness.org/) of [Static Application Security Testing (SAST)](https://en.wikipedia.org/wiki/Static_application_security_testing) tools for [Blockchain Technology](https://www.blockchain.com/).
 
-I am open to collaborations and discussions on cybersecurity, AI applications in cybersecurity, and innovative software engineering research. Feel free to reach out to me!
+Feel free to reach out if you need any help!
